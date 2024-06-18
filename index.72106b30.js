@@ -1,0 +1,2 @@
+var e=Array.from(document.querySelectorAll(".field-text")),l=function(e){for(var l="",r=0;r<e.length;r++)0===r?l+=e[0].toUpperCase():e[r].match(/[A-Z]/g)?l+=" "+e[r]:l+=e[r];return l};!function(e){e.forEach(function(e){e.placeholder=l(e.name),e.insertAdjacentHTML("beforebegin",'<label for="'.concat(e.id,'" class="field-label">').concat(e.placeholder,"</label>"))})}(e);
+//# sourceMappingURL=index.72106b30.js.map
